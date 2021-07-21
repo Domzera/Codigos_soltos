@@ -15,5 +15,19 @@ public class main
         System.out.println(c);
         String d = cde.substring ( 0);
         System.out.println(d);
+        
+        //IntStream, muito legal e acil de usar para gerar numeros continuos automaticamente
+        
+        int[] intArray1=IntStream.of(1,5).toArray();
+
+        System.out.println(Arrays.toString(intArray1));
+
+        int[] intArray2=IntStream.range(1,10).toArray();
+
+        System.out.println(Arrays.toString(intArray2));
+
+        int[] intArray3=IntStream.rangeClosed(1,15).toArray();
+
+        System.out.println(Arrays.toString(intArray3));
     }
 }
