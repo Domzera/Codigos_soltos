@@ -1,0 +1,19 @@
+public class main
+{
+ 
+    public static void main(String[] args){
+
+        String str = "abc";
+        
+        //dados char [] = {'a', 'b', 'c'};
+        //String str = new String (dados);
+
+        System.out.println ("abc");
+        String cde = "cde";
+        System.out.println ("abc" + cde);
+        String c = "abcdefghijkl" .substring (2);
+        System.out.println(c);
+        String d = cde.substring ( 0);
+        System.out.println(d);
+    }
+}
